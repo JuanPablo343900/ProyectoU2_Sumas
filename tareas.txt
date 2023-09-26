@@ -1,0 +1,16 @@
+Usando el programa de las sumas, realizar las tablas correspondientes a las siguientes versiones del programa:
+
+- Sumas aleatorias (primera versión, lunes)
+- Sumas con arreglos (segunda versión, martes)
+- Sumas de un archivo (generar un archivo de texto que por línea tenga un par de números que son los que se van a sumar, se tiene que hacer la lectura directa del archivo cada que se desea obtener un par de numeros, NO CARGARLOS DE UN ARREGLO)
+
+for (int i=0;i<total/numHilos;i++)
+{
+	line=readline();
+	string[] ops=line.split(' ');
+	res=int.Parse(ops[0])+int.Parse(ops[1]);
+}
+
+Se deben de entregar en un pdf 3 tablas y SUS CONCLUSIONES DE POR QUÉ CREEN que obtuvieron los tiempos obtenidos
+
+NOTA: realizar TODAS LA CORRIDAS EN LA MISMA COMPUTADORA, es decir TODA LA TABLA
